@@ -1,0 +1,418 @@
+@media screen and ( max-width: 600px) {
+   
+/*Principal*/
+
+   header{
+       display: none;
+   }
+  
+    .principal {
+        margin-top: -25px;
+    }
+
+    .texto {
+        margin-top: 30px;
+        width: 100%;
+    }
+    .texto h1 {
+        font-size: 40px;
+    }
+
+    .texto p {
+        font-size: 15px;
+        margin-top: 30px;
+    }
+
+/*Recomendaciones*/
+
+
+.seccion-recomendaciones {
+    width: 100%;
+    }
+    
+    .seccion-recomendaciones h3 {
+        font-size: 20px;
+       
+    }
+    
+    .recomendaciones {
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 15px;
+        width: 100%;
+    }
+    
+    .tarjeta-recomendaciones {
+        margin-bottom: 50px;
+        width: 60% ;
+        height: 250px;
+        
+    }
+
+
+
+.tarjeta-recomendaciones {
+    margin-bottom: 50px;
+    width: 60%;
+    
+}
+
+/*Top canciones*/
+.seccion-topcanciones {
+    width: 100%;
+}
+.contenedor-tarjetascanciones {
+    grid-template-columns: repeat(1,1fr);
+    width: 100%;
+}
+
+.tarjeta-canciones {
+    width: 70%;
+}
+#tarjeta-c1 {
+    margin-left: 50px;
+}
+
+#tarjeta-c2 {
+    margin-left: 50px;
+}
+
+
+/*djs*/
+
+.contenedor-tarjetasdjs {
+    grid-template-columns: repeat(1,1fr);
+    width: 100%;
+}
+
+#tarjeta-d1 {
+    margin-left: 50px;
+}
+
+#tarjeta-d2 {
+    margin-left: 50px;
+}
+
+.tarjeta-djs {
+    width: 70%;
+}
+/*Subgeneros*/
+
+.contenedor-tarjetassub {
+    grid-template-columns: repeat(1,1fr);
+    
+}
+
+#tarjeta-s1 {
+    margin-left: 50px;
+}
+
+#tarjeta-s2 {
+    margin-left: 50px;
+}
+
+.tarjeta-sub {
+    width: 70%;
+}
+}
+
+
+@media screen and (min-width:600px) and (max-width:767px)  {
+   
+    /*Principal*/
+    
+       header{
+           display: none;
+       }
+      
+        .principal {
+            margin-top: -25px;
+        }
+    
+        .texto {
+            margin-top: 30px;
+            width: 100%;
+        }
+        .texto h1 {
+            font-size: 40px;
+        }
+    
+        .texto p {
+            font-size: 15px;
+            margin-top: 30px;
+        }
+    
+    /*Recomendaciones*/
+    
+    .seccion-recomendaciones {
+    width: 100%;
+    }
+    
+    .seccion-recomendaciones h3 {
+        font-size: 20px;
+
+    }
+    
+    .recomendaciones {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 0px;
+        width: 100%;
+    }
+    
+    .tarjeta-recomendaciones {
+        margin-bottom: 50px;
+        width: 60% ;
+        height: 250px;
+        margin-right: -50px;
+    }
+
+    
+    /*Top canciones*/
+    
+    .contenedor-tarjetascanciones {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    
+    #tarjeta-c1 {
+        margin-left: 50px;
+    }
+    
+    #tarjeta-c2 {
+        margin-left: 50px;
+    }
+    
+    
+    /*djs*/
+    
+    .contenedor-tarjetasdjs {
+        grid-template-columns: repeat(2,1fr);
+    
+    }
+    
+    #tarjeta-d1 {
+        margin-left: 50px;
+    }
+    
+    #tarjeta-d2 {
+        margin-left: 50px;
+    }
+    
+    
+    /*Subgeneros*/
+    
+    .contenedor-tarjetassub {
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+    
+    #tarjeta-s1 {
+        margin-left: 50px;
+    }
+    
+    #tarjeta-s2 {
+        margin-left: 50px;
+    }
+    
+    
+    }
+    
+    @media screen and (min-width:767px) and (max-width:900px)  {
+   
+        /*Principal*/
+        
+           header{
+               display: none;
+           }
+          
+            .principal {
+                margin-top: -25px;
+            }
+        
+            .texto {
+                margin-top: 30px;
+                width: 100%;
+            }
+            .texto h1 {
+                font-size: 40px;
+            }
+        
+            .texto p {
+                font-size: 15px;
+                margin-top: 30px;
+            }
+        
+        /*Recomendaciones*/
+        
+        .seccion-recomendaciones {
+        width: 100%;
+        }
+        
+        .seccion-recomendaciones h3 {
+            font-size: 20px;
+    
+        }
+        
+        .recomendaciones {
+            grid-template-columns: repeat(2, 1fr);
+            margin-left: -5px;
+            width: 100%;
+            
+        }
+        
+        .tarjeta-recomendaciones {
+            margin-bottom: 50px;
+            width: 60% ;
+            height: 250px;
+            margin-right: -50px;
+        }
+    
+        
+        /*Top canciones*/
+        
+        .contenedor-tarjetascanciones {
+            grid-template-columns: repeat(2,1fr);
+        }
+    
+        
+        #tarjeta-c1 {
+            margin-left: 50px;
+        }
+        
+        #tarjeta-c2 {
+            margin-left: 50px;
+        }
+        
+        
+        /*djs*/
+        
+        .contenedor-tarjetasdjs {
+            grid-template-columns: repeat(2,1fr);
+        
+        }
+        
+        #tarjeta-d1 {
+            margin-left: 50px;
+        }
+        
+        #tarjeta-d2 {
+            margin-left: 50px;
+        }
+        
+        
+        /*Subgeneros*/
+        
+        .contenedor-tarjetassub {
+            grid-template-columns: repeat(2,1fr);
+            
+        }
+        
+        #tarjeta-s1 {
+            margin-left: 50px;
+        }
+        
+        #tarjeta-s2 {
+            margin-left: 50px;
+        }
+        
+        
+        }
+
+        @media screen and (min-width:900px) and (max-width:1130px)  {
+   
+            /*Principal*/
+            
+               header{
+                   display: none;
+               }
+              
+                .principal {
+                    margin-top: -25px;
+                }
+            
+                .texto {
+                    margin-top: 30px;
+                    width: 100%;
+                }
+                .texto h1 {
+                    font-size: 40px;
+                }
+            
+                .texto p {
+                    font-size: 15px;
+                    margin-top: 30px;
+                }
+            
+            /*Recomendaciones*/
+            
+            .seccion-recomendaciones {
+            width: 100%;
+            }
+            
+            .seccion-recomendaciones h3 {
+                font-size: 20px;
+        
+            }
+            
+            .recomendaciones {
+                grid-template-columns: repeat(2, 1fr);
+                margin-left: 70px;
+                width: 100%;
+            }
+            
+            .tarjeta-recomendaciones {
+                margin-bottom: 50px;
+                width: 60% ;
+                height: 250px;
+                margin-right: -50px;
+            }
+        
+            
+            /*Top canciones*/
+            
+            .contenedor-tarjetascanciones {
+                grid-template-columns: repeat(3,1fr);
+            }
+        
+            
+            #tarjeta-c1 {
+                margin-left: 50px;
+            }
+            
+            #tarjeta-c2 {
+                margin-left: 50px;
+            }
+            
+            
+            /*djs*/
+            
+            .contenedor-tarjetasdjs {
+                grid-template-columns: repeat(3,1fr);
+            
+            }
+            
+            #tarjeta-d1 {
+                margin-left: 50px;
+            }
+            
+            #tarjeta-d2 {
+                margin-left: 50px;
+            }
+            
+            
+            /*Subgeneros*/
+            
+            .contenedor-tarjetassub {
+                grid-template-columns: repeat(3,1fr);
+                
+            }
+            
+            #tarjeta-s1 {
+                margin-left: 50px;
+            }
+            
+            #tarjeta-s2 {
+                margin-left: 50px;
+            }
+            
+            
+            }

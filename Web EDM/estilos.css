@@ -1,0 +1,269 @@
+*{
+box-sizing: border-box;
+margin: 00px;
+padding: 0px;
+text-decoration: none;
+font-family: sans-serif;
+color: white
+}
+
+img {
+    object-fit: cover;
+}
+
+body {
+ background:#17202A;
+}
+
+header {
+text-align: center;
+background:#EAECEE;
+position: fixed;
+width: 100%;
+height: 50px;
+transition: all 300ms;
+}
+
+header:hover {
+    background-color:#17202A ;
+    transition: all 300ms;
+}
+.navegacion ul { 
+text-align: center;
+list-style: none;
+padding-top: 20px;
+}
+
+.navegacion ul li {
+display: inline-block;
+margin: 0px 20px;
+}
+
+.navegacion ul li a  { 
+color:#17202A;
+font-size: 20px;
+font-family: 'Potta One', cursive;
+border-width: 20px ;
+transition: all 300ms;
+padding-bottom: 10px;
+margin-top: 10px;
+}
+
+.navegacion ul li a:hover  {
+font-size: 25px;
+transition: all 300ms;
+color: white;
+ }
+
+/*Título*/
+
+.contenedor1 {
+text-align: center;
+padding-top: 30px;
+
+}
+
+.principal {
+margin-top: 20px;
+width: 100%;
+}
+
+
+.contenedor1 h1 {
+    font-family: 'Potta One', cursive;
+    font-size: 100px;
+}
+
+.principal p {
+    margin-top: 20px;
+}
+
+.contenedor h2 {
+font-family: sans-serif;
+}
+
+.texto{
+    margin-top: 100px;
+    position: absolute;
+    opacity: 1;
+}
+
+video{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    opacity: .4;
+}
+
+
+
+/*Recomendaciones*/
+
+.seccion-recomendaciones {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.seccion-recomendaciones h3 {
+    margin-bottom: 100px;
+    text-decoration: overline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.recomendaciones {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+margin-left: 0pxpx;
+margin-top: 40px;
+
+}
+
+.tarjeta-recomendaciones {
+width: 250px;
+margin: 0px 30px;
+}
+
+.tarjeta-recomendaciones .video-recomendaciones {
+    width: 240px;
+    height: 150px;
+    border: 4px solid white;
+    margin-bottom: 20px;
+}
+
+/*Top canciones*/
+
+.seccion-topcanciones {
+    margin-top: 200px;
+    width: 100%;
+}
+
+.seccion-topcanciones h3 {
+    margin-bottom: 100px;
+    text-decoration: overline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.contenedor-tarjetascanciones {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+margin-bottom:0;
+}
+
+.tarjeta-canciones {
+    width: 250px;
+margin: 0px 0px 50px 50px;
+}
+
+
+
+.tarjeta-canciones img {
+    border: 4px solid white;
+   width: 65%;
+   height: 65%;
+    transition: all 300ms;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+.tarjeta-canciones img:hover {
+    transform: scale(1.2);
+    transition: all 300ms;
+}
+
+
+
+/*Top Djs*/
+
+.seccion-topdjs {
+    margin-top: 0px;
+    width: 100%;
+}
+
+.seccion-topdjs h3 {
+    margin-bottom: 100px;
+    text-decoration: overline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.contenedor-tarjetasdjs {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+margin-bottom: 30px;
+}
+
+.tarjeta-djs {
+    width: 250px;
+margin: 0px 20px 50px 50px;
+}
+
+.tarjeta-djs img {
+    border: 4px solid white;
+    width: 65%;
+    height: 65%;
+    transition: all 300ms;
+    margin-bottom: 20px;
+}
+
+.tarjeta-djs img:hover {
+    transform: scale(1.2);
+    transition: all 300ms;
+}
+
+
+/*Top Sub*/
+
+.seccion-sub {
+    margin-top: 0px;
+    width: 100%;
+}
+
+.seccion-sub h3 {
+    margin-bottom: 100px;
+    text-decoration: overline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.contenedor-tarjetassub {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+margin-bottom: 30px;
+width: 90%;
+}
+
+.tarjeta-sub {
+    width: 250px;
+margin: 0px 20px 50px 50px;
+}
+
+
+.tarjeta-sub img {
+    border: 4px solid white;
+    width: 65%;
+    height: 65%;
+    transition: all 300ms;
+    margin-bottom: 20px;
+}
+
+.tarjeta-sub img:hover {
+    transform: scale(1.2);
+    transition: all 300ms;
+}
+
+/*Footer*/
+
+footer {
+    background: #1C2833;
+    text-align: center;
+}
+
+footer p {
+    text-decoration: overline;
+    padding: 30px 0px
+}
+
+
+
